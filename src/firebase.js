@@ -18,7 +18,7 @@ export const getToken = (setTokenFound) => {
   return messaging
     .getToken({
       vapidKey:
-        "BH97plGjFleE6fvFuH_08jfyKG4GTXlZg4tdUcUAwwjOjL0xSPoKAdruBMhW0Qw9G6f7UvaL6yr1VyNbkUvjj8I"
+        "BEGhdZ45B8jFqEtKtW1uqT1ODhZTwk1ibXou3unMhx1hUKlaHhbh_Lly7_n9piTXMIOxkKWkdRtxi85T8ZMGNjQ"
     })
     .then((currentToken) => {
       if (currentToken) {
